@@ -16,6 +16,7 @@
      --light-theme-bg: #F5F4FA;
 
      /* others */
+     --borders-box: #EEEEEE;
 
 
      
@@ -39,20 +40,23 @@
              list-style: none;
          }
 
-
-
-
          /* common styles end */
 
          /* header section */
          .logo-web {
+            display: flex;
+            font-family: 'Raleway';
+            font-style: normal;
             font-weight: 700;
             font-size: 26px;
             line-height: 1.19;
             letter-spacing: 0.03em;
-            color: #2196F3;
+            color:var(--accent-color);
          }
          .logo-link {
+            display: flex;
+            font-family: 'Raleway';
+            font-style: normal;
             font-weight: 700;
             font-size: 26px;
             line-height: 1.19;
@@ -61,11 +65,13 @@
          }
          .header-link {
             font-weight: 500;
-            font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
             color:var(--light-theme-txt);
             cursor: pointer;
+         }
+         .current {
+            color: var(--accent-color);
          }
          .header-link:hover,
          .header-link:focus {
@@ -73,10 +79,9 @@
          }
          .contact-list {
             font-weight: 500;
-            font-size: 14px;
             line-height: 1.07;
             letter-spacing: 0.02em;
-            color: #757575;
+            color:var(--content-txt) ;
             cursor: pointer;
                
          }
@@ -129,38 +134,45 @@
              }  
              
              .advantages-title {
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 1.14;
-                letter-spacing: 0.03em;
-                text-transform: uppercase;
+               font-family: 'Roboto';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 14px;
+               line-height: 1.14;
+               letter-spacing: 0.03em;
+               text-transform: uppercase;
+               color: var(--light-theme-txt);
                 
              }
              .advantages-content {
-                
-                font-size: 14px;
-                line-height: 24px;
+                line-height: 1.71;
                 letter-spacing: 0.03em;
                 color:var(--content-txt);
              }
 
              .section-title {
-                font-weight: 700;
-                font-size: 36px;
-                line-height: 1.17;
-                text-align: center;
-                letter-spacing: 0.03em;
+               font-family: 'Roboto';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 36px;
+               line-height: 1.17;
+               text-align: center;
+               letter-spacing: 0.03em;
+               color:var(--light-theme-txt);
                 
                 
              }
 
              .name-team-item {
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.19;
-                text-align: center;
-                letter-spacing: 0.03em;
-                color:var(--light-theme-txt);
+               font-family: 'Roboto';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 1.19;
+               text-align: center;
+               letter-spacing: 0.03em;
+               color:var(--light-theme-txt);
+               
              }
              .team-prof {
                 
@@ -181,51 +193,59 @@
                  background-color: var(--light-theme-bg);
              }
              .main-title {
-                font-weight: 700;
-                font-size: 18px;
-                line-height: 2;
-                letter-spacing: 0.06em;
-                color:var(--light-theme-txt);
+               font-family: 'Roboto';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 18px;
+               line-height: 2;
+               letter-spacing: 0.06em;
+               color:var(--light-theme-txt);
                 
              }
              .main-content {
                 font-size: 16px;
                 line-height: 1.88;
-                letter-spacing: 0.03em;
                 color:var(--content-txt);
                 
              }
              .main-box {
                 
-                background: #FFFFFF;
-                border: 1px solid #EEEEEE;
+                background:var(--white-theme-bg);
+                border: 1px solid var(--borders-box);
              }
              /* Footer */
              .section-footer {
-                 background-color: var(--dark-theme-bg);
+               background-color: var(--dark-theme-bg);
              }
              .footer-link-logo {
-                font-weight: 700;
-                font-size: 26px;
-                line-height: 1.19;
-                letter-spacing: 0.03em;
-                color:var(--dark-theme-txt);
+                display: flex;
+               font-family: 'Raleway';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 26px;
+               line-height: 1.19;
+               letter-spacing: 0.03em;
+               color:var(--dark-theme-txt);
              }
              .footer-adress {
-                font-size: 14px;
-                line-height: 1.71;
-                color:var(--dark-theme-txt);
+               font-style: normal;
+               line-height: 1.71;
+               letter-spacing: 0.03em;
+               color: var(--dark-theme-txt);
              }
              .footer-link {
-                font-size: 14px;
+               font-style: normal;
+               color: var(--content-txt);
                 line-height: 1.71;
-                letter-spacing: 0.03em;
                 color: rgba(255, 255, 255, 0.6);
              }
-             .footer-item {
-                 color: var(--content-txt);
+             
+             .footer-adress:hover,
+             .footer-adress:focus {
+                 color: var(--accent-color);
              }
-             .footer-item:hover,
-             .footer-item:focus {
+             
+             .footer-link:hover,
+             .footer-link:focus {
                  color: var(--accent-color);
              }

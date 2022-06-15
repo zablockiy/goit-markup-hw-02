@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -19,10 +19,10 @@
             </a>
             <ul class="header-list list">
                 <li class="header-list-item">
-                    <a class="header-link link" href="">Студия</a>
+                    <a class="header-link link" href="./index.html">Студия</a>
                 </li> 
                 <li class="header-list-item">
-                    <a class="header-link link" href="./portfolio.html">Портфолио</a>
+                    <a class="header-link link current" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li class="header-list-item">
                     <a class="header-link link" href="">Контакты</a>
@@ -42,6 +42,7 @@
 
     <main>
        <section class="section-main ">
+           <h1 hidden>Портфолио</h1>
            <ul class="list">
                <li><button class="btn" type="button">Все</button></li>
                <li><button class="btn" type="button">Веб-сайты</button></li>
@@ -52,47 +53,47 @@
            <ul class="list">
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-1.jpg" width="370" height="294" alt="Три фото на экране ноутбука">
-                       <h3 class="main-title">Технокряк</h3>
+                       <h2 class="main-title">Технокряк</h2>
                        <p class="main-content">Веб-сайт</p>
                 </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-2.jpg" width="370" height="294" alt="Баскетболисты в игре">
-                       <h3 class="main-title">Постер New Orlean vs Golden Star</h3>
+                       <h2 class="main-title">Постер New Orlean vs Golden Star</h2>
                        <p class="main-content">Дизайн</p>
                </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-3.jpg" width="370" height="294" alt="Афиша рыбного ресторана">
-                       <h3 class="main-title">Ресторан Seafood</h3>
+                       <h2 class="main-title">Ресторан Seafood</h2>
                        <p class="main-content">Приложение</p>
                </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-4.jpg" width="370" height="294" alt="Наушники">
-                       <h3 class="main-title">Проект Prime</h3>
+                       <h2 class="main-title">Проект Prime</h2>
                        <p class="main-content">Маркетинг</p>
                </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-5.jpg" width="370" height="294" alt="Пример дизайна коробок">
-                       <h3 class="main-title">Проект Boxes</h3>
+                       <h2 class="main-title">Проект Boxes</h2>
                        <p class="main-content">Приложение</p>
                </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-6.jpg" width="370" height="294" alt="Экран MAC">
-                       <h3 class="main-title">Inspiration has no Borders</h3>
+                       <h2 class="main-title">Inspiration has no Borders</h2>
                        <p class="main-content">Веб-сайт</p>
                </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-7.jpg" width="370" height="294" alt="Разворот журнала">
-                       <h3 class="main-title">Издание Limited Edition</h3>
+                       <h2 class="main-title">Издание Limited Edition</h2>
                        <p class="main-content">Дизайн</p>
                </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-8.jpg" width="370" height="294" alt="Бирка на веревке">
-                       <h3 class="main-title">Проект LAB</h3>
+                       <h2 class="main-title">Проект LAB</h2>
                        <p class="main-content">Маркетинг</p>
                </li>
                <li class="main-box">
                    <img src="./images/images-portfolio/img-prtf-9.jpg" width="370" height="294" alt="Руки на клавиатуре ноутбука">
-                       <h3 class="main-title">Growing Business</h3>
+                       <h2 class="main-title">Growing Business</h2>
                        <p class="main-content">Приложение</p>
                </li>
            </ul>
@@ -101,14 +102,16 @@
     </main>
 
     <footer class="section-footer">
-        <a class="link footer-link-logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
+        <a class="link footer-link-logo" href="./index.html">
+            <span class="logo-web">Web</span>Studio
+        </a>
         <address>
            
-        <ul class="list"> 
-            <li> <a class="link footer-adress footer-item" href="https://goo.gl/maps/dULMYjYMqGE6EUVB7" target="_blank" rel="noopener noreferrer" >г. Киев, пр-т Леси Украинки, 26</a> </li>      
-            <li> <a class="link footer-link footer-item" href="mailto:info@example.com">info@example.com</a> </li>
-            <li> <a class="link footer-link footer-item" href="tel:+380991111111">+38 099 111 11 11</a> </li>
-        </ul>
+            <ul class="list"> 
+                <li> <a class="link footer-adress " href="https://goo.gl/maps/dULMYjYMqGE6EUVB7" target="_blank" rel="noopener noreferrer" >г. Киев, пр-т Леси Украинки, 26</a> </li>      
+                <li> <a class="link footer-link " href="mailto:info@example.com">info@example.com</a> </li>
+                <li> <a class="link footer-link " href="tel:+380991111111">+38 099 111 11 11</a> </li>
+            </ul>
         </address>
 
     </footer>
